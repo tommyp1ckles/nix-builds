@@ -1,0 +1,33 @@
+# Build results
+/result
+/result-bin
+/result-*
+
+# Nix build/store paths
+/nix/
+/*.drv
+*.qcow2
+*.raw
+*.img
+*.iso
+
+# Lock file (optional: include it if you want reproducibility)
+# /flake.lock
+
+# Logs and cache
+*.log
+.cache/
+.logs/
+
+# Common editor and OS junk
+*.swp
+*.swo
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# VSCode and JetBrains
+.vscode/
+.idea/
+
