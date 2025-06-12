@@ -8,6 +8,7 @@
       system = "x86_64-linux";
       modules = [
         ./vm.nix
+	./shared.nix
         "${nixpkgs}/nixos/modules/virtualisation/qemu-vm.nix"
       ];
       specialArgs = {
